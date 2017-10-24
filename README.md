@@ -1,2 +1,2 @@
 # Cave-Game
-Cave-Game for portfolio
+The Cave Game, featured on my portfolio, is a endless runner with the goal of collected the most gems.  This game includes different enemies and enviornmental dangers the player has to avoid these without getting hit otherwise a half-heart will be deducted and once the player runs out of hearts the game is over.  You can control the miner using WASD keys and also the E key for hitting enemies with your pickaxe.  This game also comes with a terrain-editor that I made in order to edit terrains quickly and efficiently, so feel free download the game by using the clone or download button and then download the zip, once this is done run the java executable and enjoy!
