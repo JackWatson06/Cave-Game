@@ -15,12 +15,14 @@ public class Screen {
 	public BufferedImage image;
 	public int[] pixels;
 	
+	
 	private int width, height;
 	
 	private SpriteSheet sheet;
 	
 	public int screenX = 0;
 	public int screenY = 0;
+	
 	
 	//Sets up the basic screen for the game
 	public Screen(int width, int height, String spriteSheetPath, int type){
@@ -39,6 +41,7 @@ public class Screen {
 		
 	}
 	
+	
 	//!!!EXTREMELY IMPORTANT!!!
 	
 	//This is the main render method, and objects data is loaded into the main image int array and that image is displayed on the monitor
@@ -49,6 +52,7 @@ public class Screen {
 		int windowRX = screenX + width;
 		int windowTY = screenY;
 		int windowBY = screenY + height;
+		
 		
 		
 		if(xp + (spriteWidth * (scale * 16) - 1) >= windowLX && xp < windowRX && yp + (spriteHeight * (scale * 16) - 1) >= windowTY && yp < windowBY){
